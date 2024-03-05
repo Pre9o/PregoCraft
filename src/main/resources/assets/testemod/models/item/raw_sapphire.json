@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "testemod:item/raw_sapphire"
+    "layer0": "testemod:item/raw_sapphire",
+
   }
 }
