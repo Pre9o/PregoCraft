@@ -1,9 +1,7 @@
 {
-  "variants": [
-    {
+  "variants": {
       "": {
         "model": "testemod:block/sapphire_block"
       }
     }
-    ]
 }
