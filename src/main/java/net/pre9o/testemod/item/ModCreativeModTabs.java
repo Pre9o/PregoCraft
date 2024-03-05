@@ -15,7 +15,7 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TesteMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab",
+    public static final RegistryObject<CreativeModeTab> TESTE_TAB = CREATIVE_MODE_TABS.register("teste_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((pParameters, pOutput) -> {
@@ -32,7 +32,6 @@ public class ModCreativeModTabs {
 
 
     public static void register(IEventBus eventBus) {
-
         CREATIVE_MODE_TABS.register(eventBus);
     }
 }

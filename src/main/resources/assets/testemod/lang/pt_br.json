@@ -1,4 +1,9 @@
 {
   "item.testemod.sapphire": "Safira",
-  "item.testemod.raw_sapphire": "Safira bruta"
+  "item.testemod.raw_sapphire": "Safira bruta",
+
+  "block.testemod.sapphire_block": "Bloco de safira",
+    "block.testemod.raw_sapphire_block": "Bloco de safira bruta",
+
+  "creative.tab.testemod": "Teste Mod"
 }
